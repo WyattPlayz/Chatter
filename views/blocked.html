@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{background-color:#000000;color:#FFFFFF;text-align:center}#more{display:none;border-style:double}#seemore{color: -webkit-link;cursor: pointer;text-decoration: underline;}
+    </style>  
+    <script defer>
+      function more() {
+        document.getElementById('more').style.display = 'block'
+      }
+    </script>
+  </head>
+  <body>
+    <title>Apache Error</title>
+    <p>
+    You are not authorized to view this page. <br>
+    You do not have permission to view this directory or page from the Internet address of your Web browser. <br>
+<br>
+<br>
+    <br>Please try the following:
+<br>
+    <br>If you believe you should be able to view this directory or page, please contact the Web site administrator.
+    <br>To read more into your problem, <a id="seemore" onclick="more()">Click here.</a>
+<br>
+    <br>HTTP 403.8 - Forbidden: Client IP address blocked.</p>
+    <div id="more">
+      <p>
+        You are currently on a <b>block list</b>, and are <b>DENIED</b> Permission to use <i>Chatter</i>.
+        <br>This is likely due to an attempt to signup without permission.
+        <br>To be removed from the block list, <i>and</i> for correct signup instructions,
+        <br>Please contact a known chatter user for redirection to me, the website administrator.
+        <br>
+        <br><b>Please note: Staff / Facility Are not permitted on this web service.</b>
+        <br> <i>If a Staff Member or Facility Member have been discorved on this side, please contact a known chatter user for redirection to me, The website administrator.</i>
+      </p>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "short_name": "Chatter",
+  "name": "Chatter",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.com/794f886f-92be-4b44-8ce6-6a34ea788bf1%2F1A28491A-224A-4466-BD97-E4EC57DF6C15.png?1543504450592",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn.glitch.com/794f886f-92be-4b44-8ce6-6a34ea788bf1%2F1A28491A-224A-4466-BD97-E4EC57DF6C15.png?1543504450592",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://cdn.glitch.com/794f886f-92be-4b44-8ce6-6a34ea788bf1%2F873ebaf5_f71a_41c1_b12f_89fc0a43b5a1_2vs_icon.ico?1543505027858",
+      "type": "image/ico",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn.glitch.com/794f886f-92be-4b44-8ce6-6a34ea788bf1%2F873ebaf5_f71a_41c1_b12f_89fc0a43b5a1_lWp_icon.ico?1543505585917",
+      "type": "image/ico",
+      "sizes": "16x16"
+    }
+  ],
+  "start_url": "/login",
+  "background_color": "#FFFFFF",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#000000"
+},

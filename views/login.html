@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/cblacklist.js" defer></script>
+    <script src="/login.js" defer></script>
+    <script src="/setupworker.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Chatter
+    </h1>
+    <h4>
+      Login to your account
+    </h4>
+    <h5>
+      <a href="/signup">Don't have an account?</a>
+    </h5>
+    <form action="/findaccount" method="GET">
+      <input type="text" placeholder="Username" maxlength="255" name="user" required>
+      <input type="password" placeholder="Password" name="pass" maxlength="255" required>
+      <input type="submit" value="Login">
+    </form>
+    <footer>
+      Copyright 2018 All Rights Reserved
+    </footer>
+  </body>
+</html>

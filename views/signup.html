@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css">
+    <title>Chatter</title>
+    <link rel="manifest" href="/manifest.jaon">
+    <script src="/client.js"></script>
+    <script src="/cblacklist.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/checkdate.js" defer></script>
+    <script src="/setupworker.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Chatter
+    </h1>
+    <h4>
+      Create an account
+    </h4>
+    <h5>
+      <a href="/login">Already have one?</a>
+    </h5>
+    <form id="signupform" action="/newaccount" method="get">
+      <input type="text" name="user" placeholder="Username" autocomplete="off" maxlength="255" required>
+      <input type="password" name="pass" placeholder="Password" maxlength="255" required>
+      Birthday:<input type="date" name="birth" required>
+      <input type="submit" value="Signup">
+    </form>
+    <footer>
+      Copyright 2018 All Rights Reserved
+    </footer>
+  </body>
+</html>
